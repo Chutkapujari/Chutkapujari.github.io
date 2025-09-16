@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.6);
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: -1;
+    }
+    .card {
+      background: rgba(0,0,0,0.7);
+      border-radius: 20px;
+      padding: 30px;
+      display: inline-block;
+      max-width: 400px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+    }
+    h1 { margin-top: 15px; font-size: 28px; }
+    .section { margin: 20px 0; }
+    hr { border: 1px solid #444; }
+    h2 { color: #1abc9c; }
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      background: #1abc9c;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      background: #16a085;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  
+  <div class="card">
+    <!-- Profile Photo -->
+    <img src="profile.jpg" alt="profile" class="profile-pic">
+
+    <!-- Name -->
+    <h1>ANKIT</h1>
+    <p>⚡ Hacker | Developer | Creator</p>
+
+    <!-- About Section -->
+    <div class="section">
+      <h2>About Me</h2>
+      <p><b>Country:</b> India</p>
+      <p><b>Age:</b> 18</p>
+      <p><b>Class:</b> College</p>
+      <p><b>Hobbies:</b> Coding, Hacking, Creating</p>
+    </div>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <div class="section">
+      <h2>Skills</h2>
+      <p>💻 Python, PHP, Bots</p>
+      <p>🌐 HTML, CSS, JS</p>
+    </div>
+
+    <!-- Links -->
+    <a href="https://instagram.com/not4you.ankit" target="_blank">🌐 Instagram</a>
+  </div>
+</body>
+  </html>
